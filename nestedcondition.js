@@ -1,9 +1,12 @@
-var cha=10;
-var yourMony=200;
-if(cha<yourMony){
-    if(yourMony>10){
-        console.log("tyle ami khabo akhon");
-    }
-}else{
-    console.log("cha khete pari but amar kaache r taka thakchena");
+var students=['sakib','ryhan','siraj','rohim'];
+var studentsQuntity=students.length;
+console.log(studentsQuntity);
+if(students.length>=5){
+    console.log("so nice");
+}
+else if(students.length==4){
+    console.log("just parfect");
+}
+else{
+    console.log("you just not allow");
 }
